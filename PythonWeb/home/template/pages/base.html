@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load staticfiles %}
+	<meta charset="UTF-8">
+	<title>{% block title %}{% endblock  %}</title>
+	<link rel="stylesheet" href="{% static 'CSS/bootstrap.min.css' %}" type="text/css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2">
+				<center><img src="{% static 'images/2.a.jpg' %}" class="responsive-img" styte="max-height:150px"></center>
+			</div>
+			<div class="col-sm-10">
+				<center><h1>Blog lam tu Python Django</h1></center>
+			</div>
+		</div>
+	</div>
+	{% block content %}	
+	{% endblock  %}
+</body>
+</html>

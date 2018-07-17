@@ -55,8 +55,8 @@ ROOT_URLCONF = 'PythonWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [r'C:\Users\PC\Documents\PythonWeb\home\template'], #imsert path of template to avoid                                                           
+        'APP_DIRS': True,                                           #Templatedoesnotexist. Defaut: 'DIRS':[],
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
