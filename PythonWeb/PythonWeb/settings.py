@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'blog', 
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'PythonWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\PC\Documents\PythonWeb\home\template'], #imsert path of template to avoid                                                           
+        'DIRS': [r'C:\Users\DucPham\Documents\GitHub\NewBeeWeb\PythonWeb\home\template'], #imsert path of template to avoid                                                           
         'APP_DIRS': True,                                           #Templatedoesnotexist. Defaut: 'DIRS':[],
         'OPTIONS': {
             'context_processors': [
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Ho_Chi_Minh'
 
 USE_I18N = True
 
