@@ -5,34 +5,37 @@
 	<title>Bai tap Form</title>
 </head>
 <body>
-	<form action="">
-		<h1>SIGN UP</h1>
-		Name: <br>
-		<input type="text" name="name"> <br>
-		Email: <br>
-		<input type="text" name="email"> <br>
-		Password: <br>
-		<input type="password" name="password"> <br>
-		Age: <br>
-		<input type="radio" name="sex" value="Male"> Male <br>
-		<input type="radio" name="sex" value="Female"> Female <br>
-	</form>
-	<form action="">
-		Bioraphy: <br>
-		<textarea name="bioraphy-text" cols="40" rows="5"></textarea> <br>
-		Thanh Duc:    
-		<select name="job">
-			<optgroup label="Web Developer">
-				<option value="PHP">PHP</option>
-				<option value="python">Python</option>
-				<option value="asp">ASP .NET</option>
-			</optgroup>
-		</select> <br>
-		Interest: <br>
-		<input type="radio" name="inter" value="Developer"> Developer <br>
-		<input type="radio" name="inter" value="Design"> Design <br>
-		<input type="radio" name="inter" value="Bussiness"> Bussiness <br>
-	</form>
-	<input type="submit" name="sign-up" value="Sign Up Now">
+	<div class="container">
+		<form action="" method="post" style="width: 500px; margin: 10px auto; background-color: #D5FCFF">
+			<h1 style="padding: 10px; text-align: center ">SIGN UP</h1>
+			<span style="display: inline-block; background-color:#019C3B ; border-radius: 50px; color: white; padding: 10px 15px 10px 15px; margin-bottom: 10px">1</span> <span style="font-size: 20px; font-weight: bold;">Your basic info</span> <br>
+			<span style="margin: 10px">Name:</span> <br>
+			<input type="text" name="name" placeholder="Input your name here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
+			<span style="margin: 10px">Email:</span> <br>
+			<input type="text" name="email" placeholder="Input your email here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
+			<span style="margin: 10px">Password:</span> <br>
+			<input type="password" name="password" placeholder="Input your password here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
+			<span style="margin: 10px">Age:</span> <br>
+			<input type="radio" name="sex" style="margin-top: 10px; margin-bottom: 5px"> Under 13 <br>
+			<input type="radio" name="sex" style="margin-top: 10px; margin-bottom: 10px"> 13 or order <br>
+		<form action="" method="post" style="width: 500px; margin: 10px auto; background-color: #D5FCFF">
+			<span style="display: inline-block; background-color:#019C3B ; border-radius: 50px; color: white; padding: 10px 15px 10px 15px; margin: 10px">2</span> <span style="font-size: 20px; font-weight: bold;">Your profile</span> <br>
+			<span style="margin: 10px">Bioraphy:</span>: <br>
+			<textarea name="bioraphy-text" cols="40" rows="5" style="border: none; margin: 10px; width: 470px" placeholder="Insert your bio here"></textarea> <br>
+			<span style="margin: 10px">Thanh Duc: </span>   
+			<select name="job" style="margin: 10px">
+				<optgroup label="Web Developer">
+					<option value="PHP">PHP</option>
+					<option value="python">Python</option>
+					<option value="asp">ASP .NET</option>
+				</optgroup>
+			</select> <br>
+			<span style="margin: 10px">Interest:</span> <br>
+			<input type="radio" name="inter" value="Developer" style="margin-top: 10px; margin-bottom: 5px"> Developer <br>
+			<input type="radio" name="inter" value="Design" style="margin-top: 10px; margin-bottom: 5px"> Design <br>
+			<input type="radio" name="inter" value="Bussiness" style="margin-top: 10px; margin-bottom: 5px"> Bussiness <br>
+		</form>
+		<input type="submit" name="sign-up" value="Sign Up Now" style="width: 500px; margin: 10px auto; border: none; background-color:#D5FCFF; height: 25px; border-radius: 10px 10px 10px 10px ">
+	</div>
 </body>
 </html>
