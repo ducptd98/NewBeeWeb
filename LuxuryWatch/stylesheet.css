@@ -1,3 +1,79 @@
-.container{
-	
+body{
+	margin: 0;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+.giohang{
+	color: white;
+	float: right;
+	text-align: center;
+	padding-top: 5px
+}
+.giohang p {
+    margin-top: 5px;
+    padding: 0;
+}
+.giohang a:link, .giohang a:visited{
+	text-decoration: none;
+	color: white;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo a:link, .logo a:visited{
+	text-decoration: none;
+	color: black;
+}
+.logo{
+	text-align: center;
+	border-bottom: solid 1px #DAD9D9;
+}
+.divleft{
+	float: left;
+	width: 70%;
+	height: 70px;
+}
+.divleft ul li{
+	float: left;
+	padding-right: 45px;
+	font-size: 20px;
+}
+.divleft ul li a{
+	text-decoration: none;
+}
+.divleft ul li a:hover{
+	color: red;
+}
+.divright {
+	width: 30%;
+    height: 70px;
+	float:left;
+	position:relative;
+}
+#btnSearch {
+	background: url(images/search.png) no-repeat;
+    display: inline-block;
+    padding-right: 14px;
+    padding-left: 9px;
+    border: 0;
+    cursor: pointer;
+	position: absolute;
+    right: 2%;
+    top: 8px;
+}
+#txtSearch {
+	padding: 7px;
+}
+.menu {
+    padding-top: 15px;
+}
+#containSearch {
+	float:right;
 }
