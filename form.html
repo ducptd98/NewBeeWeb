@@ -2,40 +2,58 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bai tap Form</title>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 </head>
-<body>
+<body >
 	<div class="container">
-		<form action="" method="post" style="width: 500px; margin: 10px auto; background-color: #D5FCFF">
+		<form action="demo_web.txt" method="post" style="width: 500px; margin: 10px auto; background-color: #D5FCFF">
 			<h1 style="padding: 10px; text-align: center ">SIGN UP</h1>
 			<span style="display: inline-block; background-color:#019C3B ; border-radius: 50px; color: white; padding: 10px 15px 10px 15px; margin-bottom: 10px">1</span> <span style="font-size: 20px; font-weight: bold;">Your basic info</span> <br>
 			<span style="margin: 10px">Name:</span> <br>
-			<input type="text" name="name" placeholder="Input your name here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
+			<input type="text" name="fname" placeholder="Input your name here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
 			<span style="margin: 10px">Email:</span> <br>
 			<input type="text" name="email" placeholder="Input your email here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
 			<span style="margin: 10px">Password:</span> <br>
 			<input type="password" name="password" placeholder="Input your password here" style="border: none; width: 470px; margin: 10px; height: 25px"> <br>
 			<span style="margin: 10px">Age:</span> <br>
 			<input type="radio" name="sex" style="margin-top: 10px; margin-bottom: 5px"> Under 13 <br>
-			<input type="radio" name="sex" style="margin-top: 10px; margin-bottom: 10px"> 13 or order <br>
-		<form action="" method="post" style="width: 500px; margin: 10px auto; background-color: #D5FCFF">
+			<input type="radio" name="sex" style="margin-top: 10px; margin-bottom: 10px"> 13 or order <br>	
 			<span style="display: inline-block; background-color:#019C3B ; border-radius: 50px; color: white; padding: 10px 15px 10px 15px; margin: 10px">2</span> <span style="font-size: 20px; font-weight: bold;">Your profile</span> <br>
 			<span style="margin: 10px">Bioraphy:</span>: <br>
 			<textarea name="bioraphy-text" cols="40" rows="5" style="border: none; margin: 10px; width: 470px" placeholder="Insert your bio here"></textarea> <br>
-			<span style="margin: 10px">Thanh Duc: </span>   
-			<select name="job" style="margin: 10px">
-				<optgroup label="Web Developer">
-					<option value="PHP">PHP</option>
-					<option value="python">Python</option>
-					<option value="asp">ASP .NET</option>
-				</optgroup>
+			<span style="margin: 10px;font-family: courier">Thanh Duc:</span>   
+			<select name="job" id="jobid">
+					<optgroup label="WEB">
+						<option value="frontend_developer">Front-End Developer</option>
+						<option value="php_developor">PHP Developer</option>
+						<option value="python_developer">Python Developer</option>
+						<option value="rails_developer"> Rails Developer</option>
+						<option value="web_designer">Web Designer</option>
+						<option value="WordPress_developer">WordPress Developer</option>
+					</optgroup>
+					<optgroup label="MOBILE">
+						<option value="Android_developer">Androild Developer</option>
+						<option value="iOS_developer">iOS Developer</option>
+						<option value="mobile_designer">Mobile Designer</option>
+					</optgroup>
+					<optgroup label="BUSINESS">
+						<option value="business_owner">Business Owner</option>
+						<option value="freelancer">Freelancer</option>
+					</optgroup>
+					<optgroup label="OTHER">
+						<option value="secretary">Secretary</option>
+						<option value="maintenance">Maintenance</option>
+					</optgroup>
+					<option value="demo1">New option 1</option>
+					<option value="demo2">New option 2</option>
 			</select> <br>
 			<span style="margin: 10px">Interest:</span> <br>
 			<input type="radio" name="inter" value="Developer" style="margin-top: 10px; margin-bottom: 5px"> Developer <br>
 			<input type="radio" name="inter" value="Design" style="margin-top: 10px; margin-bottom: 5px"> Design <br>
 			<input type="radio" name="inter" value="Bussiness" style="margin-top: 10px; margin-bottom: 5px"> Bussiness <br>
+			<input type="submit" value="Sign Up Now" style="padding: 10px;width: 100%;color: white;background: #3DC1D0;border-radius: 26px;font-size: 20px;margin-top: 10px"></input>
 		</form>
-		<input type="submit" name="sign-up" value="Sign Up Now" style="width: 500px; margin: 10px auto; border: none; background-color:#D5FCFF; height: 25px; border-radius: 10px 10px 10px 10px ">
 	</div>
 </body>
 </html>
