@@ -77,3 +77,67 @@ body{
 #containSearch {
 	float:right;
 }
+.about{
+	padding: 50px;
+}
+.about img{
+	padding-right: 40px;
+	float: left;
+}
+.oneproduct{
+	border: solid 1px #E2E2E2;
+	float: left;
+	text-align: center;
+	padding: 40px;
+	margin: 40px 40px 10px 40px;
+}
+.info{
+	float: left;
+	width: 25%;
+}
+.info ul{
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.info ul a{
+	text-decoration: none;
+}
+.info ul  li a:link, .info ul  li a:visited{
+	color: gray;
+}
+.info ul  li a:hover {
+	color: red;
+}
+#facebook {
+    background: url(images/s-icons.png);
+    background-position: 0 0;
+}
+
+#twitter {
+    background: url(images/s-icons.png);
+    background-position: -34px 0;
+}
+
+#google {
+    background: url(images/s-icons.png);
+    background-position: -68px 0;
+}
+span.social {
+	width:34px;
+	height: 34px;
+	display: inline-block;
+}
+.txtSocial {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -22px;
+    padding-left: 10px;
+}
+.phanvung {
+	width: 100%;
+}
+.childFooter {
+	width: 50%;
+	float: left;
+}
